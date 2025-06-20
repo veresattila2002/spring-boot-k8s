@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/veresattila2002/spring-boot-k8s.git
     targetRevision: HEAD
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: spring-boot-app
