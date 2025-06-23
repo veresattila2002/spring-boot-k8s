@@ -14,6 +14,6 @@ spec:
       spec:
         containers:
           -name: app
-           image: ghcr.io/veresattila2002/helloword:1.0
+           image: ghcr.io/veresattila2002/javahelloworld:1.0
            ports:
            - containerPort: 8080
