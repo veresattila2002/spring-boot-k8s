@@ -11,7 +11,7 @@ spec:
   http:
     - match:
       - uri:
-        prefix: /message
+          prefix: /message
       route:
       - destination:
           host: spring-boot-app.spring-boot-app.svc.cluster.local
