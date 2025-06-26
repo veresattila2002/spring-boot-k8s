@@ -14,6 +14,6 @@ spec:
           prefix: /message
       route:
       - destination:
-          host: spring-boot-app.spring-boot-app.svc.cluster.local:80
+          host: spring-boot-app.spring-boot-app.svc.cluster.local
           port:
             number: 8080
