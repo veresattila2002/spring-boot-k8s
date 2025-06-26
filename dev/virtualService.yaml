@@ -10,7 +10,7 @@ spec:
     - spring-boot-app-gateway
   http:
     - match:
-      -uri:
+      - uri:
         prefix: /message
     - route:
       - destination:
