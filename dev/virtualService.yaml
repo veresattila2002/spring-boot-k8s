@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: spring-boot-app-vs
+  namespace: spring-boot-app
+spec:
+  hosts:
+    - spring-boot-app.spring-boot-app.svc.cluster.local
+  gateways:
+    - spring-boot-app-gateway
+  http:
+    - match:
+      -uri:
+        prefix: /message
+    - route:
+      - destination:
+          host: spring-boot-app.spring-boot-app.svc.cluster.local
+          port:
+            number: 8080
