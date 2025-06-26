@@ -8,7 +8,7 @@ spec:
   servers:
     - port:
         number: 8080
-        name: http
+        name: firstapp
         protocol: HTTP 
       hosts:
         - "*"
