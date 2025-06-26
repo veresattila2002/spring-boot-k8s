@@ -17,3 +17,4 @@ spec:
           host: spring-boot-app.spring-boot-app.svc.cluster.local
           port:
             number: 80
+            name: asd
