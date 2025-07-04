@@ -17,7 +17,3 @@ spec:
           host: spring-boot-app.spring-boot-app.svc.cluster.local
           port:
             number: 80
-<<<<<<< HEAD
-            
-=======
->>>>>>> 0d43577 (nip io add)
