@@ -16,4 +16,4 @@ spec:
       - destination:
           host: spring-boot-app.spring-boot-app.svc.cluster.local
           port:
-            number: 8080
+            number: 80
